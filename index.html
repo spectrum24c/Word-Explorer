@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="book_13940148.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <svg fill="currentColor" viewBox="0 0 24 24">
+            <path d="M21.64 13a1 1 0 00-1.05-.14 8.05 8.05 0 01-3.37.73 8.15 8.15 0 01-8.14-8.1 8.59 8.59 0 01.6-2.85 1 1 0 00-.7-1.25A10 10 0 1012 22a9.87 9.87 0 006.44-2.36 1 1 0 00.16-1.05z"/>
+        </svg>
+    </button>
+    <div class="search-container">
+        <h1>Word Explorer</h1>
+        <div class="search-box">
+            <input type="text" id="wordInput" placeholder="Search for a word...">
+            <button id="searchBtn">Search</button>
+        </div>
+    </div>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+       
+</body>
+</html>
